@@ -1,0 +1,55 @@
+/* Custom styles can be added here */
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+/* Adjust hero section height for better visual */
+header.jumbotron-fluid {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Section padding */
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Image styling in sections */
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Card image height consistency */
+.card-img-top {
+    height: 200px; /* Fixed height for course images */
+    object-fit: cover; /* Cover the area without distorting */
+}
+
+/* Gallery image styling */
+#gallery img {
+    width: 100%;
+    height: 250px; /* Fixed height for gallery images */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
